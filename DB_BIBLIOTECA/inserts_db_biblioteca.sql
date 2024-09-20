@@ -1,4 +1,4 @@
--- INSERINDO DADOS (ALTER)
+-- INSERINDO DADOS (INSERT)
 
 USE db_biblioteca;
 

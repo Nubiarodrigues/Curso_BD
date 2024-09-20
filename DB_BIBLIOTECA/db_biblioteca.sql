@@ -1,10 +1,9 @@
--- aula01 - Bóson Treinamentos
 
 SHOW DATABASES; -- mostra todos os bancos já criados
 
 CREATE DATABASE db_Biblioteca;
 
-USE db_biblioteca; -- diz para o sgbd o banco especifico que irá rodar os comandos a seguir
+USE db_biblioteca; -- diz para o SGBD o banco especifico que irá rodar os comandos a seguir
 SELECT DATABASE(); -- mostra o banco selecionado no USE
 SHOW TABLES; -- mostra as tabelas criadas no banco selecionado
 
