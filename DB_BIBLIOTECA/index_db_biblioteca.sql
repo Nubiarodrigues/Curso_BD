@@ -1,0 +1,21 @@
+-- INDEX 
+
+-- PERMITE A VISUALIZAÇÃO DE INDEXS NA TABELA
+SHOW INDEX FROM tbl_editoras;
+
+/*EXPLAIN VAI MOSTRAR COMO VAI SER REALIZADO
+O COMANDO QUE VEM A FRENTE DELE*/
+EXPLAIN SELECT * FROM tbl_editoras
+WHERE Nome_editora = 'Springer';
+
+
+-- CRIANDO INDEX
+CREATE INDEX idx_editora ON tbl_editoras(Nome_editora);
+
+ 
+-- EXCLUINDO INDEX DA TABELA
+DROP INDEX idx_editora ON tbl_editoras;
+
+
+
+

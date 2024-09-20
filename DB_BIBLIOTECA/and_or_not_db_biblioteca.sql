@@ -1,0 +1,14 @@
+-- OPERADORES AND, OR E NOT
+
+-- AND -> AMBAS CONDIÇÕES VERDADEIRAS
+-- OR -> UMA DAS CONDIÇÕES VERDADEIRAS
+-- NOT -> NEGAÇÃO DE CONDIÇÃO 
+
+SELECT * FROM tbl_livro
+WHERE ID_livro > 2 AND ID_Autor < 3;
+
+SELECT * FROM tbl_livro
+WHERE ID_livro > 2 OR ID_Autor < 3;
+
+SELECT * FROM tbl_livro
+WHERE ID_livro > 2 AND NOT ID_Autor < 3;
